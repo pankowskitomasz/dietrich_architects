@@ -1,0 +1,12 @@
+*{
+    box-sizing:border-box;
+}
+.adjusted-top-section-h{
+    @include set-calc-height($full-height,$navbar-height);
+}
+body,html{
+    min-height: 100%
+}
+@include include-class($section-top-height,".adjusted-top-section-h");
+@include set-height($section-full-height,$full-height);
+@include set-height($section-half-height,$half-height);

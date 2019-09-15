@@ -1,0 +1,209 @@
+*{
+    font-family: $font-text;
+}
+#index-s1__carousel{
+    &,.carousel-inner,.item, img{
+        @extend .adjusted-top-section-h;
+    }
+    img{
+        @extend .img-fit;
+    }
+}
+
+#map-container{
+    min-height: 50vh;
+    width: 100%;
+}
+
+.bg{
+    &-blk{
+        background-color: $color-blk;
+    }
+    &-slv{
+        background-color: $color-slv;
+    }
+    &-wht{
+        background-color: $color-wht;
+    }
+}
+
+.caption-fw{
+    bottom: 0;
+    left: 0px;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+}
+.d{
+    &-flex{
+        display: flex;
+    }
+}
+
+.font{
+    &-logo{
+        font-family: $font-logo;
+    }
+    &-menu{
+        font-family: $font-menu;
+    }
+}
+.h{
+    &-25vh{
+        min-height: 25vh;
+    }
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-100vh{
+        min-height: 100vh;
+    }
+    &-max-25vh{
+        max-height: 25vh;
+    }
+}
+
+.icon-list{
+    .fa{
+        font-size: $icon-menu-size;
+    }
+    a{
+        @extend .link;
+        color: $icon-color;
+    }
+}
+
+.img-fit{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.link{
+    &:hover{
+        opacity: 0.5;
+        text-decoration: none;
+    }
+    &-white{
+        color: $color-wht !important;
+    }
+}
+
+.m{
+    &-0{
+        margin: 0px;
+    }
+    &x{
+        &-auto{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &y{
+        &-auto{
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+    }
+}
+
+.navbar{
+    &-brand, &-text{
+        img{
+            float:left;
+        }
+        float:left;
+    }
+}
+
+.p{
+    &-0{
+        padding: 0px;
+    }
+    &-20{
+        padding: 20px;
+    }
+    &t{
+        &-20{
+            padding-top: 20px;
+        }
+    }
+}
+
+.projects-s1__col-left{
+    @include set-background($projects-s1-left-bg);
+}
+
+.projects-s2__col-right{
+    @include set-background($projects-s2-right-bg);
+}
+
+.projects-s3__col-left{
+    @include set-background($projects-s3-left-bg);
+}
+
+.projects-s4__col-right{
+    @include set-background($projects-s4-right-bg);
+}
+
+.projects-s5__col-left{
+    @include set-background($projects-s5-left-bg);
+}
+
+.shadow{
+    box-shadow: $shadow;
+}
+
+.text{
+    &-white{
+        color: $color-wht;
+    }
+}
+
+.w{
+    &-100{
+        width: 100%;
+    }
+    &-100vw{
+        width: 100vw;
+    }
+}
+
+fieldset{
+    margin-bottom: 15px;
+}
+input{
+    border-radius: 0px !important;
+    margin-bottom: 5px;
+}
+textarea{
+    border-radius: 0px !important;
+    height: 150px !important;
+    resize: none;
+}
+
+@media all and (max-width: 767.8px){
+    .h{
+        &-xs{
+            &-max-25vh{
+                max-height: 25vh;
+            }
+        }
+    }       
+}
+
+@media all and (min-width: 768px){
+    .h{
+        &-sm{
+            &-max-50vh{
+                max-height: 50vh;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 992px) and (orientation: landscape){    
+    #map-container{
+        min-height: 75vh;
+    }
+}

@@ -1,0 +1,37 @@
+$color-blk: #333;
+$color-slv: #ddd;
+$color-wht: #fff;
+$font-logo: 'Fugaz One', cursive;
+$font-menu: 'Marcellus SC', serif;
+$font-text: $font-menu;
+$full-height: 100vh;
+$half-height: 50vh;
+$icon-color: $color-wht;
+$icon-menu-size: 25px;
+$navbar-height: 50px;
+$projects-s1-left-bg: "../img/projects/s1-left-bg.jpg"; 
+$projects-s2-right-bg: "../img/projects/s2-right-bg.jpg";
+$projects-s3-left-bg: "../img/projects/s3-left-bg.jpg";
+$projects-s4-right-bg: "../img/projects/s4-right-bg.jpg";
+$projects-s5-left-bg: "../img/projects/s5-left-bg.jpg";
+$section-full-height:
+    "about-s1",
+    "confirm-s1",
+    "contact-s1",
+    "error-s1",
+    "featured-s1",
+    "featured-s2",
+    "featured-s3";
+$section-half-height:
+    "projects-s1",
+    "projects-s2",
+    "projects-s3",
+    "projects-s4",
+    "projects-s5",
+    "team-s1",
+    "team-s2",
+    "team-s3",
+    "team-s4";
+$section-top-height:
+    "index-s1";
+$shadow: 0px 0px 8px #999;
