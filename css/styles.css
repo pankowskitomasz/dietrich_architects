@@ -1,0 +1,341 @@
+@font-face {
+  font-family: 'Fugaz One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Fugaz One"), local("FugazOne-Regular"), url(../fonts/rax_HiWKp9EAITukFsl8Axhf.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Marcellus SC"), local("MarcellusSC-Regular"), url(../fonts/ke8iOgUHP1dg-Rmi6RWjbLE_iNacKKg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Marcellus SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Marcellus SC"), local("MarcellusSC-Regular"), url(../fonts/ke8iOgUHP1dg-Rmi6RWjbLE_htac.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+.adjusted-top-section-h, .index-s1, #index-s1__carousel, #index-s1__carousel .carousel-inner, #index-s1__carousel .item, #index-s1__carousel img {
+  height: calc(100vh - 50px);
+  height: -o-calc(100vh - 50px);
+  height: -moz-calc(100vh - 50px);
+  height: -webkit-calc(100vh - 50px);
+}
+
+/* line 7, ../sass/partials/_layout.scss */
+body, html {
+  min-height: 100%;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.about-s1 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.confirm-s1 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.error-s1 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.featured-s1 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.featured-s2 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.featured-s3 {
+  min-height: 100vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.projects-s1 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.projects-s2 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.projects-s3 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.projects-s4 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.projects-s5 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.team-s1 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.team-s2 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.team-s3 {
+  min-height: 50vh;
+}
+
+/* line 24, ../sass/partials/_mixins.scss */
+.team-s4 {
+  min-height: 50vh;
+}
+
+/* line 1, ../sass/partials/_modules.scss */
+* {
+  font-family: "Marcellus SC", serif;
+}
+
+/* line 13, ../sass/partials/_modules.scss */
+#map-container {
+  min-height: 50vh;
+  width: 100%;
+}
+
+/* line 19, ../sass/partials/_modules.scss */
+.bg-blk {
+  background-color: #333;
+}
+/* line 22, ../sass/partials/_modules.scss */
+.bg-slv {
+  background-color: #ddd;
+}
+/* line 25, ../sass/partials/_modules.scss */
+.bg-wht {
+  background-color: #fff;
+}
+
+/* line 30, ../sass/partials/_modules.scss */
+.caption-fw {
+  bottom: 0;
+  left: 0px;
+  margin: 0px;
+  padding: 5px;
+  width: 100%;
+}
+
+/* line 38, ../sass/partials/_modules.scss */
+.d-flex {
+  display: flex;
+}
+
+/* line 44, ../sass/partials/_modules.scss */
+.font-logo {
+  font-family: "Fugaz One", cursive;
+}
+/* line 47, ../sass/partials/_modules.scss */
+.font-menu {
+  font-family: "Marcellus SC", serif;
+}
+
+/* line 52, ../sass/partials/_modules.scss */
+.h-25vh {
+  min-height: 25vh;
+}
+/* line 55, ../sass/partials/_modules.scss */
+.h-50vh {
+  min-height: 50vh;
+}
+/* line 58, ../sass/partials/_modules.scss */
+.h-100vh {
+  min-height: 100vh;
+}
+/* line 61, ../sass/partials/_modules.scss */
+.h-max-25vh {
+  max-height: 25vh;
+}
+
+/* line 67, ../sass/partials/_modules.scss */
+.icon-list .fa {
+  font-size: 25px;
+}
+/* line 70, ../sass/partials/_modules.scss */
+.icon-list a {
+  color: #fff;
+}
+
+/* line 76, ../sass/partials/_modules.scss */
+.img-fit, #index-s1__carousel img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* line 83, ../sass/partials/_modules.scss */
+.link:hover, .icon-list a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+/* line 87, ../sass/partials/_modules.scss */
+.link-white {
+  color: #fff !important;
+}
+
+/* line 93, ../sass/partials/_modules.scss */
+.m-0 {
+  margin: 0px;
+}
+/* line 97, ../sass/partials/_modules.scss */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 103, ../sass/partials/_modules.scss */
+.my-auto {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* line 111, ../sass/partials/_modules.scss */
+.navbar-brand, .navbar-text {
+  float: left;
+}
+/* line 112, ../sass/partials/_modules.scss */
+.navbar-brand img, .navbar-text img {
+  float: left;
+}
+
+/* line 120, ../sass/partials/_modules.scss */
+.p-0 {
+  padding: 0px;
+}
+/* line 123, ../sass/partials/_modules.scss */
+.p-20 {
+  padding: 20px;
+}
+/* line 127, ../sass/partials/_modules.scss */
+.pt-20 {
+  padding-top: 20px;
+}
+
+/* line 133, ../sass/partials/_modules.scss */
+.projects-s1__col-left {
+  background-image: url(../img/projects/s1-left-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 137, ../sass/partials/_modules.scss */
+.projects-s2__col-right {
+  background-image: url(../img/projects/s2-right-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 141, ../sass/partials/_modules.scss */
+.projects-s3__col-left {
+  background-image: url(../img/projects/s3-left-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 145, ../sass/partials/_modules.scss */
+.projects-s4__col-right {
+  background-image: url(../img/projects/s4-right-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 149, ../sass/partials/_modules.scss */
+.projects-s5__col-left {
+  background-image: url(../img/projects/s5-left-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 153, ../sass/partials/_modules.scss */
+.shadow {
+  box-shadow: 0px 0px 8px #999;
+}
+
+/* line 158, ../sass/partials/_modules.scss */
+.text-white {
+  color: #fff;
+}
+
+/* line 164, ../sass/partials/_modules.scss */
+.w-100 {
+  width: 100%;
+}
+/* line 167, ../sass/partials/_modules.scss */
+.w-100vw {
+  width: 100vw;
+}
+
+/* line 172, ../sass/partials/_modules.scss */
+fieldset {
+  margin-bottom: 15px;
+}
+
+/* line 175, ../sass/partials/_modules.scss */
+input {
+  border-radius: 0px !important;
+  margin-bottom: 5px;
+}
+
+/* line 179, ../sass/partials/_modules.scss */
+textarea {
+  border-radius: 0px !important;
+  height: 150px !important;
+  resize: none;
+}
+
+@media all and (max-width: 767.8px) {
+  /* line 188, ../sass/partials/_modules.scss */
+  .h-xs-max-25vh {
+    max-height: 25vh;
+  }
+}
+@media all and (min-width: 768px) {
+  /* line 198, ../sass/partials/_modules.scss */
+  .h-sm-max-50vh {
+    max-height: 50vh;
+  }
+}
+@media all and (min-width: 992px) and (orientation: landscape) {
+  /* line 206, ../sass/partials/_modules.scss */
+  #map-container {
+    min-height: 75vh;
+  }
+}
