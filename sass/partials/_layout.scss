@@ -9,4 +9,4 @@ body,html{
 }
 @include include-class($section-top-height,".adjusted-top-section-h");
 @include set-height($section-full-height,$full-height);
-@include set-height($section-half-height,$half-height);
+@include set-height($section-third-height,$third-height);
