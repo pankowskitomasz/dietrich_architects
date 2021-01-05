@@ -1,3 +1,5 @@
+$border-style: solid;
+$border-width: 1px;
 $color-blk: #333;
 $color-slv: #ddd;
 $color-wht: #fff;
@@ -6,6 +8,7 @@ $font-menu: 'Marcellus SC', serif;
 $font-text: $font-menu;
 $full-height: 100vh;
 $half-height: 50vh;
+$third-height: 33vh;
 $icon-color: $color-wht;
 $icon-menu-size: 25px;
 $navbar-height: 50px;
@@ -22,7 +25,7 @@ $section-full-height:
     "featured-s1",
     "featured-s2",
     "featured-s3";
-$section-half-height:
+$section-third-height:
     "projects-s1",
     "projects-s2",
     "projects-s3",

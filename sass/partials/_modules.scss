@@ -26,7 +26,15 @@
         background-color: $color-wht;
     }
 }
-
+.border{
+    &-top{
+        border-top-style: $border-style;
+        border-top-width: $border-width; 
+    }
+    &-white{
+        border-color: $color-wht;
+    }
+}
 .caption-fw{
     bottom: 0;
     left: 0px;
@@ -50,13 +58,16 @@
 }
 .h{
     &-25vh{
-        min-height: 25vh;
+        height: 25vh;
+    }
+    &-33vh{
+        height: 33vh;
     }
     &-50vh{
-        min-height: 50vh;
+        height: 50vh;
     }
     &-100vh{
-        min-height: 100vh;
+        height: 100vh;
     }
     &-max-25vh{
         max-height: 25vh;
@@ -98,6 +109,10 @@
             margin-left: auto;
             margin-right: auto;
         }
+        &-20{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
     }
     &y{
         &-auto{
@@ -106,7 +121,14 @@
         }
     }
 }
-
+.minh{
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-180{
+        min-height: 180px;
+    }
+}
 .navbar{
     &-brand, &-text{
         img{
@@ -122,6 +144,9 @@
     }
     &-20{
         padding: 20px;
+    }
+    &-40{
+        padding: 40px;
     }
     &t{
         &-20{
@@ -187,6 +212,11 @@ textarea{
         &-xs{
             &-max-25vh{
                 max-height: 25vh;
+            }
+        }
+        &-xs{
+            &-max-33vh{
+                max-height: 33vh;
             }
         }
     }       
